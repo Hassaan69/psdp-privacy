@@ -277,7 +277,7 @@
     
     <div class="meta-info">
       <span><strong>Effective Date:</strong> July 1, 2026</span>
-      <span><strong>Last Updated:</strong> July 1, 2026</span>
+      <span><strong>Last Updated:</strong> November 19, 2026</span>
     </div>
   </div>
 
@@ -289,7 +289,14 @@
 
     <section>
       <h2>Data Collection & Processing</h2>
-      <p>The App is designed with an offline-first architecture. It collects progress data, geolocations, and site photographs from users. All gathered data is stored securely in a local database (WatermelonDB) on your device. Once an internet connection is established, the data is synced and uploaded directly to the secure servers of the Planning & Development Department. We do not transmit or share your data with any third-party services or private entities.</p>
+      <p>The App is designed with an offline-first architecture. It collects account details, progress data, geolocations, and site photographs from authorized users. Inspection records are stored in a local database on your device. Once an internet connection is established, the data is synced and uploaded directly to the secure servers of the Planning & Development Department. We do not sell data, show ads, or share information with advertisers or data brokers.</p>
+
+      <div class="permission-box">
+        <div class="permission-title">
+          Account <span>Required to sign in</span>
+        </div>
+        <p style="margin-bottom: 0; font-size: 13.5px;">The Department issues your username. When you sign in, the App sends that username and password to the Department's server and receives your user id, full name, and a session token. The password and token are stored in the phone's secure storage so you can sign in again without a network connection. Your user id, username, and full name are also stored on the phone. Signing out removes the saved password and token from the phone.</p>
+      </div>
     </section>
 
     <section>
@@ -307,14 +314,7 @@
         <div class="permission-title">
           Location Services <span>Mandatory</span>
         </div>
-        <p style="margin-bottom: 0; font-size: 13.5px;">Allows the App to capture precise GPS coordinates. These coordinates are strictly used to geo-tag site progress reports and verify that the monitoring activity was conducted on-site at the exact scheme location.</p>
-      </div>
-
-      <div class="permission-box">
-        <div class="permission-title">
-          Microphone <span>Optional</span>
-        </div>
-        <p style="margin-bottom: 0; font-size: 13.5px;">Allows the App to record audio notes or attachments during site visits, if required by the monitoring officer to provide supplementary details.</p>
+        <p style="margin-bottom: 0; font-size: 13.5px;">Allows the App to read precise GPS coordinates while you take or submit a site photo. The coordinates geo-tag the progress report and show that the visit was at the scheme location. The App does not track location in the background and does not use the microphone.</p>
       </div>
     </section>
 
